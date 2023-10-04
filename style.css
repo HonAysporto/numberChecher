@@ -1,0 +1,94 @@
+
+body{
+    background-color: rgb(247, 231, 231);
+}
+
+.main1 {
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    border-radius: 20px;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* .main1 {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+} */
+
+
+
+
+.main1{
+    /* border: 3px solid rgb(0, 60, 255); */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+  
+}
+
+.main1 input{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border: 4px solid rgb(7, 7, 36);
+}
+
+.main1 h1{
+    width: 300px;
+    height: 50px;
+    color: blue;
+    margin-bottom: 80px;
+}
+
+.main1 .result{
+    color: blue;
+   margin-top: 30px;
+  border: none;
+   
+   font-size: 26px;
+   max-width: 200px;
+
+  
+   
+}
+
+.main1 button{
+    color: blue;
+    margin-top: 30px;
+    border: none;
+    padding: 10px 20px;
+    width: 200px;
+   background-color: black;
+   font-size: 18px;
+    font-weight: bold;
+ }
+
+@media (max-width: 475px) {
+    
+   .main1 {
+        overflow-x: hidden;
+        width: 100%;
+   }
+}
