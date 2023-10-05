@@ -1,10 +1,10 @@
 
-body{
+/* body{
     background-color: rgb(247, 231, 231);
-}
+} */
 
-.main1 {
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+.main1, body {
+    background: linear-gradient(90deg, #f34c4c, #34dbd0);
     background-size: 200% 200%;
     animation: gradientAnimation 10s ease infinite;
     font-family: Arial, sans-serif;
